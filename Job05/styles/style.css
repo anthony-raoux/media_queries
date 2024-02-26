@@ -1,0 +1,240 @@
+h1{
+    color:red;
+    display: flex;
+    justify-content: center;
+    font-size:350%;
+    background-color:black;
+    height: 100px;
+    align-items: center;
+    font-family: "Send Flowers", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 30px;
+
+
+}
+ul {
+    list-style: none;
+    display: flex; flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hotpink;
+    height: 200px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 200%;
+    align-self: center;
+    font-family: "Ceviche One", system-ui;
+    border-radius: 30px;
+} 
+
+.container {
+    justify-content: space-evenly;
+    align-content: center;
+    align-self:center;
+    display: flex; flex-direction: row;
+    background-color: rgb(140, 187, 237);
+    align-items: center;
+    border-radius: 30px;
+}
+img{
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    
+}
+
+.containertexte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 1em;
+    gap: 20px;
+        font-family: "Ceviche One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        background-color: rgb(177, 232, 250);
+        border-radius: 30px;
+      
+}
+.containerimage {
+    justify-content: space-evenly;
+    align-content: center;
+    align-self:center;
+    display: flex; flex-direction: row;
+    background-color: rgb(140, 187, 237);
+    align-items: center;
+    border-radius: 30px;
+}
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 1em;
+    gap: 20px;
+        font-family: "Ceviche One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        background-color: rgb(177, 232, 250);
+        border-radius: 30px;
+}
+h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 1em;
+    gap: 20px;
+        font-family: "Ceviche One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        background-color: rgb(177, 232, 250);
+        border-radius: 30px;
+}
+.presentation2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 1em;
+    gap: 20px;
+        font-family: "Ceviche One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        background-color: rgb(177, 232, 250);
+        border-radius: 30px;
+
+}
+.fin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 1em;
+    gap: 20px;
+        font-family: "Ceviche One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        background-color: rgb(177, 232, 250);
+        border-radius: 30%;
+}
+.contenaireequipe{
+    display: flex;row-gap:
+    justify-content:space-evenly;
+    align-items: center;
+    }
+
+.body2{
+    background-color:rgb(176, 181, 196);
+}
+.body3{
+    font-family: "Ceviche One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    background-color: rgb(177, 232, 250);
+    border-radius: 30%;
+    flex-wrap: wrap;
+}
+.containermo{
+display: flex;
+align-content: flex-start;
+flex-direction: column;
+object-fit: cover;
+}
+
+
+@media only screen and (min-width: 1600px) and (orientation: landscape){
+    
+    body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    }
+        
+    @media only screen and (max-width: 767px) and (orientation: portrait){
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    
+    
+    @media only screen and (min-width: 768px) and (max-width: 1599px) and (orientation: portrait){
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            column-gap: 100px;
+            flex-wrap: wrap;
+        }
+        }
+
+        
+@media only screen and (min-width: 1600px) and (orientation: landscape){
+    
+    .body2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    }
+        
+    @media only screen and (max-width: 767px) and (orientation: portrait){
+        .body2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    
+    
+    @media only screen and (min-width: 768px) and (max-width: 1599px) and (orientation: portrait){
+        
+        .body2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            column-gap: 100px;
+            flex-wrap: wrap;
+        }
+        }
+
+                
+@media only screen and (min-width: 1600px) and (orientation: landscape){
+    
+    .body3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    }
+        
+    @media only screen and (max-width: 767px) and (orientation: portrait){
+        .body3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    
+    
+    @media only screen and (min-width: 768px) and (max-width: 1599px) and (orientation: portrait){
+        
+        .body3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            column-gap: 100px;
+            flex-wrap: wrap;
+        }
+        }
